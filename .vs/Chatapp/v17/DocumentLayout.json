@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\mvvm\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\mvvm\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\net\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\net\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\net\\io\\packetbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\net\\io\\packetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\chatclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\chatclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\tcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\tcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatapp\\mvvm\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A441C1-5AD3-45D0-AD13-4C30FBF6B0D0}|Chatapp\\ChatClient.csproj|solutionrelative:chatapp\\mvvm\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|c:\\users\\opilane\\source\\repos\\multiuserchatapp\\chatserver\\chatserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A15AA47-6184-49D7-B37D-0F4FC04F0F21}|ChatServer\\ChatServer.csproj|solutionrelative:chatserver\\chatserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Program.cs",
+              "RelativeDocumentMoniker": "ChatServer\\Program.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Program.cs",
+              "RelativeToolTip": "ChatServer\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwEYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:51:04.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Client.cs",
+              "RelativeDocumentMoniker": "ChatServer\\Client.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Client.cs",
+              "RelativeToolTip": "ChatServer\\Client.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:52:35.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\Server.cs",
+              "RelativeDocumentMoniker": "Chatapp\\NET\\Server.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\Server.cs",
+              "RelativeToolTip": "Chatapp\\NET\\Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:50:58.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Chatapp\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "Chatapp\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:53:43.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Chatapp\\MVVM\\Core\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "Chatapp\\MVVM\\Core\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:52:38.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacketBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\NET\\IO\\PacketBuilder.cs",
+              "RelativeDocumentMoniker": "ChatServer\\NET\\IO\\PacketBuilder.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\NET\\IO\\PacketBuilder.cs",
+              "RelativeToolTip": "ChatServer\\NET\\IO\\PacketBuilder.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAlwBQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:04:06.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacketBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\IO\\PacketBuilder.cs",
+              "RelativeDocumentMoniker": "Chatapp\\NET\\IO\\PacketBuilder.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\IO\\PacketBuilder.cs",
+              "RelativeToolTip": "Chatapp\\NET\\IO\\PacketBuilder.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:02:44.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PacketReader.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\NET\\IO\\PacketReader.cs",
+              "RelativeDocumentMoniker": "ChatServer\\NET\\IO\\PacketReader.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\NET\\IO\\PacketReader.cs",
+              "RelativeToolTip": "ChatServer\\NET\\IO\\PacketReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:51:26.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PacketReader.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\IO\\PacketReader.cs",
+              "RelativeDocumentMoniker": "Chatapp\\NET\\IO\\PacketReader.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\NET\\IO\\PacketReader.cs",
+              "RelativeToolTip": "Chatapp\\NET\\IO\\PacketReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:03:06.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tcpclient.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Tcpclient.cs",
+              "RelativeDocumentMoniker": "ChatServer\\Tcpclient.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\Tcpclient.cs",
+              "RelativeToolTip": "ChatServer\\Tcpclient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:53:37.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usermodel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\Model\\Usermodel.cs",
+              "RelativeDocumentMoniker": "Chatapp\\MVVM\\Model\\Usermodel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\MVVM\\Model\\Usermodel.cs",
+              "RelativeToolTip": "Chatapp\\MVVM\\Model\\Usermodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:50:42.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatClient",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj",
+              "RelativeDocumentMoniker": "Chatapp\\ChatClient.csproj",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj",
+              "RelativeToolTip": "Chatapp\\ChatClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T07:49:19.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChatServer",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj",
+              "RelativeDocumentMoniker": "ChatServer\\ChatServer.csproj",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj",
+              "RelativeToolTip": "ChatServer\\ChatServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T07:49:17.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

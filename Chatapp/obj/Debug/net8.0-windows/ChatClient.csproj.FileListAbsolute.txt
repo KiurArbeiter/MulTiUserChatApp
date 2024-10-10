@@ -20,3 +20,12 @@ C:\Users\opilane\source\repos\Chatapp\Chatapp\obj\Debug\net8.0-windows\ChatClien
 C:\Users\opilane\source\repos\Chatapp\Chatapp\obj\Debug\net8.0-windows\ChatClient.genruntimeconfig.cache
 C:\Users\opilane\source\repos\Chatapp\Chatapp\obj\Debug\net8.0-windows\ref\ChatClient.dll
 C:\Users\opilane\source\repos\Chatapp\Chatapp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\ChatClient.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.cache
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\ChatClient_MarkupCompile.lref
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\ChatClient.dll
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\refint\ChatClient.dll
+C:\Users\opilane\source\repos\MulTiUserChatApp\Chatapp\obj\Debug\net8.0-windows\ChatClient.pdb

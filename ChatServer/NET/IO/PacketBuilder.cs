@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ChatClient.NET.IO
 {
@@ -15,12 +13,12 @@ namespace ChatClient.NET.IO
             _ms = new MemoryStream();
         }
 
-        public void WRiteOpCode(byte opcode)
+        public void WriteOpCode(byte opcode)
         {
             _ms.WriteByte(opcode);
         }
 
-        public void WriteString (string msg)
+        public void WriteMessage(string msg)
         {
             var msgLength = msg.Length;
             _ms.Write(BitConverter.GetBytes(msgLength));
@@ -29,7 +27,7 @@ namespace ChatClient.NET.IO
 
         public byte[] GetPacketBytes()
         {
-            return _ms.ToArray(); 
+            return _ms.ToArray();
         }
     }
 }
