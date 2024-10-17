@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
-using ChatClient.NET.IO;
-using ChatServer.Net.IO;
+using ChatApp.Net.IO;
 
-namespace ChatClient.Net
+namespace ChatApp.Net
 {
     class Server
     {
@@ -28,13 +27,15 @@ namespace ChatClient.Net
                 _client.Connect("127.0.0.1", 7891);
                 PacketReader = new PacketReader(_client.GetStream());
 
+                ReadPackets();
                 if (!string.IsNullOrEmpty(username))
                 {
                     var connectPacket = new PacketBuilder();
-                    connectPacket.WRiteOpCode(0);
-                    connectPacket.WriteString(username);
+                    connectPacket.WriteOpCode(0);
+                    connectPacket.WriteMessage(username);
                     _client.Client.Send(connectPacket.GetPacketBytes());
                 }
+
             }
         }
 
@@ -68,8 +69,8 @@ namespace ChatClient.Net
         public void SendMessageToServer(string message)
         {
             var messagePacket = new PacketBuilder();
-            messagePacket.WRiteOpCode(5);
-            messagePacket.WriteString(message);
+            messagePacket.WriteOpCode(5);
+            messagePacket.WriteMessage(message);
             _client.Client.Send(messagePacket.GetPacketBytes());
         }
     }

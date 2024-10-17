@@ -1,5 +1,10 @@
 ﻿using ChatServer.Net.IO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ChatServer
 {
@@ -18,6 +23,7 @@ namespace ChatServer
 
             var opcode = _packetReader.ReadByte();
             Username = _packetReader.ReadMessage();
+
 
 
             Console.WriteLine($"[{DateTime.Now}]: Client has connected with username: {Username}");

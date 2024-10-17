@@ -1,6 +1,6 @@
-﻿using ChatApp.MVVM.Model;
-using ChatClient.MVVM.Core;
-using ChatClient.Net;
+﻿using ChatApp.MVVM.Core;
+using ChatApp.MVVM.Model;
+using ChatApp.Net;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

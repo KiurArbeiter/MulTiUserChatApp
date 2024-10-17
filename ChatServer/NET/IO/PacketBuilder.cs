@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace ChatClient.NET.IO
+namespace ChatServer.Net.IO
 {
     class PacketBuilder
     {
@@ -20,14 +21,16 @@ namespace ChatClient.NET.IO
 
         public void WriteMessage(string msg)
         {
-            var msgLength = msg.Length;
-            _ms.Write(BitConverter.GetBytes(msgLength));
-            _ms.Write(Encoding.ASCII.GetBytes(msg));
+            var msgBytes = Encoding.ASCII.GetBytes(msg);
+            var msgLenght = msgBytes.Length;
+            _ms.Write(BitConverter.GetBytes(msgLenght));
+            _ms.Write(msgBytes);
         }
 
         public byte[] GetPacketBytes()
         {
             return _ms.ToArray();
         }
+
     }
 }

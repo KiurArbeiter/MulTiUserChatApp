@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\Chatapp\\Chatapp\\Chatapp.csproj": {}
+    "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\Chatapp\\Chatapp\\Chatapp.csproj": {
+    "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Chatapp\\Chatapp\\Chatapp.csproj",
-        "projectName": "Chatapp",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\Chatapp\\Chatapp\\Chatapp.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\Chatapp\\Chatapp\\obj\\",
+        "projectUniqueName": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatApp.csproj",
+        "projectName": "ChatApp",
+        "projectPath": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatApp.csproj",
+        "packagesPath": "C:\\Users\\shaco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shaco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DotNetty.Codecs.Mqtt": {
+              "target": "Package",
+              "version": "[0.7.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,7 +2,6 @@
 using System.Net.Sockets;
 using System.Net;
 using ChatServer.Net.IO;
-using ChatClient.NET.IO;
 
 namespace ChatServer
 {
@@ -13,7 +12,7 @@ namespace ChatServer
         static void Main(string[] args)
         {
             _users = new List<Client>();
-            _listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 7891);
+            _listener = new TcpListener(IPAddress.Any, 7891);
             _listener.Start();
 
             while (true)

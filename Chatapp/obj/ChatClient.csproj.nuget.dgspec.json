@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj": {}
+    "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj": {
+    "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj",
+        "projectUniqueName": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatClient.csproj",
         "projectName": "ChatClient",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\ChatClient.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\Chatapp\\obj\\",
+        "projectPath": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\ChatClient.csproj",
+        "packagesPath": "C:\\Users\\shaco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaco\\Downloads\\MulTiUserChatApp-main\\MulTiUserChatApp-main\\Chatapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shaco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
