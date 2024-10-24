@@ -11,10 +11,11 @@ class Program
             Server server = new Server();
 
             server.connectedEvent += () => Console.WriteLine("Connected to the server!");
-            server.msgReceivedEvent += () => Console.WriteLine("Message received!");
             server.userDisconnectedEvent += () => Console.WriteLine("User disconnected!");
+            server.msgReceivedEvent += () => Console.WriteLine("Message recieved");
 
-            Console.WriteLine("Type '!Connect' to connect to the server.");
+
+            Console.WriteLine("Use '!Connect' to connect to the server");
 
             while (true)
             {
@@ -32,20 +33,32 @@ class Program
                 }
                 else
                 {
-                    Console.WriteLine("Invalid command. Please type '!Connect' to connect.");
+                    Console.WriteLine("Invalid command Write '!Connect' to connect");
                 }
+            }
+            while (true)
+            {
+            Console.WriteLine("Message: ");
+            string message = Console.ReadLine();
+                server.SendMessageToServer(message);
+                server.msgReceivedEvent += () => Console.WriteLine(message);
             }
 
             while (true)
             {
-                Console.WriteLine("Message: ");
-                string message = Console.ReadLine();
-                server.SendMessageToServer(message);
+            string input = Console.ReadLine();
+            if (input.Equals("!Disconnect", StringComparison.OrdinalIgnoreCase))
+            if (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine();
+                name = Console.ReadLine();
+            }
+            Environment.Exit(0); 
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            Console.WriteLine("ERROR");
         }
     }
 }
