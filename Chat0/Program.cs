@@ -1,21 +1,51 @@
-﻿using Chat0.net;
-using System.Net.Sockets;
+﻿using System;
+using Chat0.net;
 
-try
+class Program
 {
-    string name;
-    string message;
+    static void Main()
+    {
+        try
+        {
+            string name = string.Empty;
+            Server server = new Server();
 
-    Console.WriteLine("Nimi: ");
-    name = Console.ReadLine();
-    Server server = new Server();
-    server.ConnectToServer(name);
-    Console.WriteLine("Message: ");
-    message = Console.ReadLine();
-    server.SendMessageToServer(message);
+            server.connectedEvent += () => Console.WriteLine("Connected to the server!");
+            server.msgReceivedEvent += () => Console.WriteLine("Message received!");
+            server.userDisconnectedEvent += () => Console.WriteLine("User disconnected!");
 
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
+            Console.WriteLine("Type '!Connect' to connect to the server.");
+
+            while (true)
+            {
+                string input = Console.ReadLine();
+
+                if (input.Equals("!Connect", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (string.IsNullOrEmpty(name))
+                    {
+                        Console.WriteLine("Nimi: ");
+                        name = Console.ReadLine();
+                    }
+                    server.ConnectToServer(name);
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid command. Please type '!Connect' to connect.");
+                }
+            }
+
+            while (true)
+            {
+                Console.WriteLine("Message: ");
+                string message = Console.ReadLine();
+                server.SendMessageToServer(message);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
 }

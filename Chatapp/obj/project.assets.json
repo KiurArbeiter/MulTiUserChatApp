@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\chattttt\\Chatapp-main\\ChatApp\\ChatApp.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatApp\\ChatApp.csproj",
       "projectName": "ChatApp",
-      "projectPath": "C:\\Users\\opilane\\Desktop\\chattttt\\Chatapp-main\\ChatApp\\ChatApp.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatApp\\ChatApp.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Desktop\\chattttt\\Chatapp-main\\ChatApp\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatServer
-build_property.ProjectDir = C:\Users\opilane\Desktop\chattttt\Chatapp-main\ChatServer\
+build_property.ProjectDir = C:\Users\opilane\source\repos\MultiUserChatApp\ChatServer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
