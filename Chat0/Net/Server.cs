@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
-using ChatApp.Net.IO;
+using Chat0.Net.IO;
 
-namespace ChatClient.Net
+namespace Chat0.net
 {
     class Server
     {
@@ -22,13 +22,14 @@ namespace ChatClient.Net
 
         public void ConnectToServer(string username)
         {
-            if (!_client.Connected) 
+            if (!_client.Connected)
             {
                 _client.Connect("127.0.0.1", 7891);
                 PacketReader = new PacketReader(_client.GetStream());
 
                 ReadPackets();
-                if (!string.IsNullOrEmpty(username)){
+                if (!string.IsNullOrEmpty(username))
+                {
                     var connectPacket = new PacketBuilder();
                     connectPacket.WriteOpCode(0);
                     connectPacket.WriteMessage(username);
@@ -55,10 +56,6 @@ namespace ChatClient.Net
                             break;
                         case 10:
                             userDisconnectedEvent?.Invoke();
-                            break;
-
-                        default:
-                            Console.WriteLine("ah yes..");
                             break;
                     }
                 }

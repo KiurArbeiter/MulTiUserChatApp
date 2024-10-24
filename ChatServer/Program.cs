@@ -12,7 +12,7 @@ namespace ChatServer
         static void Main(string[] args)
         {
             _users = new List<Client>();
-            _listener = new TcpListener(IPAddress.Any, 7891);
+            _listener = new TcpListener(IPAddress.Any , 7891);
             _listener.Start();
 
             while (true)
@@ -41,9 +41,9 @@ namespace ChatServer
             }
         }
 
-        public static void BroadcastMessage(string message)
+        public static void BroadcastMessage(string message) 
         {
-            foreach (var user in _users)
+            foreach (var user in _users) 
             {
                 var msgPacket = new PacketBuilder();
                 msgPacket.WriteOpCode(5);

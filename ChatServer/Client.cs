@@ -38,7 +38,7 @@ namespace ChatServer
                 try
                 {
                     var opcode = _packetReader.ReadByte();
-                    switch (opcode)
+                    switch (opcode) 
                     {
                         case 5:
                             var msg = _packetReader.ReadMessage();

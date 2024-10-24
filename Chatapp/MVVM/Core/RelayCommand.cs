@@ -32,3 +32,4 @@ namespace ChatApp.MVVM.Core
         }
     }
 }
+

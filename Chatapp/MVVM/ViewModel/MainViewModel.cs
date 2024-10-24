@@ -1,6 +1,6 @@
 ﻿using ChatApp.MVVM.Core;
 using ChatApp.MVVM.Model;
-using ChatApp.Net;
+using ChatClient.Net;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -23,7 +23,7 @@ namespace ChatApp.MVVM.ViewModel
         public string Message { get; set; }
         private Server _server;
 
-        public MainViewModel()
+        public MainViewModel() 
         {
             Users = new ObservableCollection<UserModel>();
             Messages = new ObservableCollection<string>();
