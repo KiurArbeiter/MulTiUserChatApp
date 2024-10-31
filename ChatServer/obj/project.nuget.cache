@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pmZ/YDQAKrcaQf/8t+/LIU4obf3qxoDCWHOKQiL6FQbTxDf3A6lE4Tv7m8liPsKyQryFrTOKFu9/Ctd/F0DaMA==",
+  "dgSpecHash": "ei2kf9ZSYEOr7uABpxMelO+TIuscp9LVCqHeVhQ4ID4hG9OaFa8MfiJgvjYNJ9eHINobhwNmlcUjfwtGlWc5cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\ChatServer.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

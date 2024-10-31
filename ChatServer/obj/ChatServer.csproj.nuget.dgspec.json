@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\ChatServer.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\ChatServer.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\ChatServer.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj",
         "projectName": "ChatServer",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\ChatServer.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\ChatServer.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\MultiUserChatApp\\ChatServer\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\MulTiUserChatApp\\ChatServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
