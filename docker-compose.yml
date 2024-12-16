@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  chatserver:
+    build:
+      context: ./ChatServer  # Build context is the ChatServer directory
+      dockerfile: Dockerfile
+    ports:
+      - "7891:7891"
+    networks:
+      - chat-network
+    container_name: chatserver
+
+  chatconsole:
+    build:
+      context: ./ChatConsole  # Build context is the ChatConsole directory
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT}:7891"  # Dynamically set the port using the PORT environment variable
+    networks:
+      - chat-network
+    depends_on:
+      - chatserver
+    stdin_open: true
+    tty: true
+    environment:
+      - USER_ID=${USER_ID}  # Dynamically set the user ID using the USER_ID environment variable
+    restart: unless-stopped
+
+networks:
+  chat-network:
+    driver: bridge

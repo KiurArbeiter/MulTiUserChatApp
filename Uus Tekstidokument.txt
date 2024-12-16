@@ -1,0 +1,35 @@
+cd /c/Users/opilane/source/repos/Chatapp1
+./create-chatconsole.sh
+
+
+#!/bin/bash
+set -x
+
+
+# Get the current number of chatconsole containers running
+num_consoles=$(docker ps -f "name=chatconsole" --format "{{.Names}}" | wc -l)
+
+# Calculate the next available USER_ID (e.g., user1, user2, ...)
+user_id="user$((num_consoles + 1))"
+
+# Set the USER_ID as an environment variable
+export USER_ID=$user_id
+
+# Dynamically find the next available port starting from 7892
+base_port=7892
+next_port=$base_port
+
+# Check if the port is already in use, increment if it is
+while netstat -tuln | grep ":$next_port " > /dev/null; do
+  echo "Port $next_port is already in use, checking next port..."
+  next_port=$((next_port + 1))
+done
+
+# Set the dynamic PORT variable
+export PORT=$next_port
+
+# Scale the chatconsole service to create a new container with the dynamic port and user_id
+docker-compose up -d --scale chatconsole=$((num_consoles + 1))
+
+# Inform the user of the new instance and port
+echo "Created new chatconsole instance with USER_ID: $user_id, using port $PORT"

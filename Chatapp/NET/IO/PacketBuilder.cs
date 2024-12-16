@@ -20,11 +20,11 @@ namespace ChatApp.Net.IO
             _ms.WriteByte(opcode);
         }
 
-        public void WriteMessage(string msg) 
+        public void WriteMessage(string msg)
         {
             var msgBytes = Encoding.ASCII.GetBytes(msg);
-            var msgLength = msgBytes.Length;
-            _ms.Write(BitConverter.GetBytes(msgLength));
+            var msgLenght = msgBytes.Length;
+            _ms.Write(BitConverter.GetBytes(msgLenght));
             _ms.Write(msgBytes);
         }
 

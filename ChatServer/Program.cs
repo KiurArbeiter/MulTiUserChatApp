@@ -12,7 +12,7 @@ namespace ChatServer
         static void Main(string[] args)
         {
             _users = new List<Client>();
-            _listener = new TcpListener(IPAddress.Any , 7891);
+            _listener = new TcpListener(IPAddress.Any, 7891);
             _listener.Start();
 
             while (true)
@@ -41,30 +41,40 @@ namespace ChatServer
             }
         }
 
-        public static void BroadcastMessage(string message) 
+        public static void BroadcastMessage(string message)
         {
-            foreach (var user in _users) 
+            foreach (var user in _users)
             {
-                var msgPacket = new PacketBuilder();
-                msgPacket.WriteOpCode(5);
-                msgPacket.WriteMessage(message);
-                user.ClientSocket.Client.Send(msgPacket.GetPacketBytes());
+                try
+                {
+                    var msgPacket = new PacketBuilder();
+                    msgPacket.WriteOpCode(5);
+                    msgPacket.WriteMessage(message);
+                    user.ClientSocket.Client.Send(msgPacket.GetPacketBytes());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error sending message to {user.Username}: {ex.Message}");
+                }
             }
         }
 
         public static void BroadcastDisconnect(string uid)
         {
-            var disconnectedUser = _users.Where(x => x.UID.ToString() == uid).FirstOrDefault();
+            var disconnectedUser = _users.FirstOrDefault(x => x.UID.ToString() == uid);
             _users.Remove(disconnectedUser);
-            foreach (var user in _users)
+            if (disconnectedUser != null)
             {
-                var broadcastPacket = new PacketBuilder();
-                broadcastPacket.WriteOpCode(10);
-                broadcastPacket.WriteMessage(uid);
-                user.ClientSocket.Client.Send(broadcastPacket.GetPacketBytes());
-            }
+                foreach (var user in _users)
+                {
+                    var broadcastPacket = new PacketBuilder();
+                    broadcastPacket.WriteOpCode(10);
+                    broadcastPacket.WriteMessage(uid);
+                    user.ClientSocket.Client.Send(broadcastPacket.GetPacketBytes());
+                }
 
-            BroadcastMessage($"[{disconnectedUser.Username}] Disconnected!");
+                BroadcastMessage($"[{disconnectedUser.Username}] Disconnected!");
+            }
         }
     }
 }

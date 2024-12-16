@@ -49,9 +49,9 @@ namespace ChatServer
                             break;
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    Console.WriteLine($"[{UID.ToString()}]: Disconnected!");
+                    Console.WriteLine($"[{UID}]: Disconnected! Exception: {ex.Message}");
                     Program.BroadcastDisconnect(UID.ToString());
                     ClientSocket.Close();
                 }
