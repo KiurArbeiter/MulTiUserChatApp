@@ -1,0 +1,8 @@
+docker compose up --build
+docker attach multiuserchatapp-chatconsole-1
+
+teine user
+git bash - (docker-compose.yml directory like: cd /c/Users/kiura/Documents/GitHub/MulTiUserChatApp)
+./create-chatconsole.sh
+uus CMD lahti:
+docker attach chatconsole-user2
